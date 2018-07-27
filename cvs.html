@@ -10,9 +10,9 @@
      background-color: #fffcb0;
     }
     #container {
-    width: 100%;
-    height: 100%;
-    position: relative;
+      width: 100%;
+      height: 100%;
+      position: relative;
     }
     #cvsimage {
      width: 720px;
@@ -22,48 +22,96 @@
      left: 0;
     }
     #transparentbackground {
-    background-color: rgb(255, 252, 176, 0.4);
-    position: absolute;
-    width: 720px;
-    height: 600px;
-    top: 0;
-    left: 0;
+      background-color: rgb(255, 252, 176, 0.4);
+      position: absolute;
+      width: 720px;
+      height: 600px;
+      top: 0;
+      left: 0;
     }
     #cvsdescription {
-    text-align: justify;
-    margin-left: 375px;
-    margin-right: 75px;
-    margin-top: 30px;
-    font-size: 24px;
-    color: #321615;
+      text-align: justify;
+      margin-left: 375px;
+      margin-right: 100px;
+      margin-top: 30px;
+      font-size: 24px;
+      color: #321615;
     }
     h2 {
-    font-family: 'Calligraffitti', cursive;
-    color: #745b5c;
-    font-size: 45px;
-    text-align: center;
-    margin-left: 275px;
-    margin-bottom: 0px;
-    text-shadow: 3px 3px gray;
+      font-family: 'Calligraffitti', cursive;
+      color: #745b5c;
+      font-size: 45px;
+      text-align: center;
+      margin-left: 275px;
+      margin-bottom: 0px;
+      text-shadow: 3px 3px gray;
     }
     h4 {
-    font-family: 'Calligraffitti', cursive;
-    color: #745b5c;
-    font-size: 22px;
-    text-align: center;
-    margin-left: 275px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px gray;
+      font-family: 'Calligraffitti', cursive;
+      color: #745b5c;
+      font-size: 22px;
+      text-align: center;
+      margin-left: 275px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-shadow: 2px 2px gray;
     }
     #maindiv {
-    display: flex;
+      display: flex;
     }
     #rightdiv {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
     }
+    .sidenav {
+      height: 323px;
+      width: 60px;
+      position: fixed;
+      top: 90px;
+      right: 0;
+      border: 2px solid #321615;
+      background-color: #B0EEFF;
+      overflow-x: hidden;
+      padding-top: 20px;
+      padding: 10px;
+    }
+    sidenav a{
+      padding: 4px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+      background-color: white;
+      border: 2px solid black;
+    }
+    sidenav a:hover {
+      color: #f1f1f1
+    }
+    .blacksquare {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: #321615;
+      border: 2px solid #321615;
+    }
+    .whitesquare {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: white;
+      border: 2px solid #321615;
+    }
+    #square {
+      margin-top: 3px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+
 
   </style>
 </head>
@@ -80,6 +128,13 @@
   <p id="cvsdescription"> The CVS Pharmacy retail drugstores sell prescription drugs as well as an assortment of over-the-counter and personal care products, beauty and cosmetic products, and general merchandise, which the Company refers to as front store products. </p>
      </div>
    </div>
+   <div class="sidenav">
+    <a href="uburger"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="dunkindonuts.html"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="mrgelato"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="revitalive"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="cvs"> <div id="square" class="blacksquare"> </div> </a>
+  </div>
 </body>
 
 </html>
