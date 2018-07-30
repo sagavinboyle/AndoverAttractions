@@ -1,0 +1,157 @@
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+  <style>
+    body {
+     margin: 0;
+     padding: 0;
+     font-family: 'PT Serif', serif;
+     background-color: #fffcb0;
+     text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5)
+    }
+    #container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    #cvsimage {
+     width: 720px;
+     height: 810px;
+     position: absolute;
+     top: 0;
+     left: 0;
+    }
+    #transparentbackground {
+      background-color: rgba(255, 252, 176, 0.4);
+      position: absolute;
+      width: 720px;
+      height: 810px;
+      top: 0;
+      left: 0;
+    }
+    #cvsdescription {
+      text-align: justify;
+      margin-left: 340px;
+      margin-right: 100px;
+      margin-top: 30px;
+      font-size: 24px;
+      color: #321615;
+    }
+    h2 {
+      font-family: 'Calligraffitti', cursive;
+      color: #745b5c;
+      font-size: 45px;
+      text-align: center;
+      margin-left: 220px;
+      margin-bottom: 0px;
+      margin-top: 180px;
+      text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    }
+    h4 {
+      font-family: 'Calligraffitti', cursive;
+      color: #745b5c;
+      font-size: 22px;
+      text-align: center;
+      margin-left: 220px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-shadow: 2px 2px gray;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    }
+    #readmore {
+     font-family: 'PT Serif', serif;
+    }
+    #maindiv {
+      display: flex;
+    }
+    #rightdiv {
+      display: flex;
+      postion: absolute;
+      flex-direction: column;
+      margin: 20px;
+    }
+    #arrow {
+      height: 70px;
+      width: 70px;
+      position: absolute;
+      margin-left: -30px;
+      margin-top: 60px;
+    }
+    .sidenav {
+      height: 323px;
+      width: 60px;
+      position: fixed;
+      top: 230px;
+      right: 0;
+      border: 2px solid #321615;
+      background-color: #B0EEFF;
+      overflow-x: hidden;
+      padding-top: 20px;
+      padding: 10px;
+    }
+    sidenav a{
+      padding: 4px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+      background-color: white;
+      border: 2px solid black;
+    }
+    sidenav a:hover {
+      color: #f1f1f1
+    }
+    .blacksquare {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: #321615;
+      border: 2px solid #321615;
+    }
+    .whitesquare {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: white;
+      border: 2px solid #321615;
+    }
+    #square {
+      margin-top: 3px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div id="maindiv">
+  <div id="container">
+    <img id="cvsimage" src="https://i.pinimg.com/564x/3d/88/56/3d8856a121251ec2fccd7986c1702de2.jpg" alt="cvs pharmacy image">
+  </div>
+  <div id="transparentbackground">
+  </div>
+      <div id="rightdiv">
+        <h2> <strong> CVS/ Pharmacy </strong>  </h2>
+        <h4> Health is Everything </h4>
+        <p id="cvsdescription"> The CVS Pharmacy retail drugstores sell prescription drugs as well as an assortment of over-the-counter and personal care products, beauty and cosmetic products, and general merchandise, which the Company refers to as front store products. </p>
+        <a href="https://www.cvs.com/"><h4 id="readmore"> Read More <h4> </a>
+        <a href="https://i.chzbgr.com/full/9082005248/hA5C9761E/"> <img id="arrow" src="navigation/arrow.png" alt="arrow" > </a>
+      </div>
+   </div>
+   <div class="sidenav">
+    <a href="uburger"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="dunkindonuts.html"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="mrgelato"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="revitalive"> <div id="square" class="whitesquare"> </div> </a>
+    <a href="cvs"> <div id="square" class="blacksquare"> </div> </a>
+  </div>
+</body>
+
+</html>
