@@ -2,24 +2,192 @@
 
 </div>
 <head>
-  <style>
-div {
+
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.sidenav {
+height: 323px;
+width: 60px;
+position: fixed;
+top: 230px;
+right: 0;
+border: 2px solid #321615;
+background-color: #B0EEFF;
+overflow-x: hidden;
+padding-top: 20px;
+padding: 10px;
+}
+sidenav a{
+padding: 4px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 10px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+display: block;
+background-color: white;
+border: 2px solid black;
+}
+sidenav a:hover {
+color: #f1f1f1
+}
+.blacksquare {
+margin: 5px;
+height: 50px;
+width: 50px;
+background-color: #321615;
+border: 2px solid #321615;
+}
+.whitesquare {
+margin: 5px;
+height: 50px;
+width: 50px;
+background-color: white;
+border: 2px solid #321615;
+}
+#square {
+margin-top: 3px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+.background{
+  width: 100%;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -5;
+
+}
+.background img{
+  width: 100%;
+
+}
+.text{
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  top: 420;
+  font-family: normalText;
+  color: #FFFCB0;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5)
+
 }
 
+.title{
+  font-family: 'Calligraffitti', cursive;
+  font-weight: bold;
+  font-size: 45px;
+  position: relative;
+  z-index: -3;
+  display: flex;
+  justify-content: center;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+  color: #FFFCB0;
+  top: 60;
+}
 
-  }
+.title2{
+  font-family: 'Calligraffitti', cursive;
+  font-size: 22px;
+  position: relative;
+  top: 50;
+  z-index: -3;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  color: #FFFCB0;
+}
 
+.haze{
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(126, 245, 186, 0.2);
+  position: absolute;
+  z-index: -4;
+}
+.read{
+  display: flex;
+  justify-content: center;
+  font-family: normalText;
+  color: #FFFCB0;
+  font-weight: bold;
+  top: 310;
+  position: relative;
+  z-index: -1;
+
+}
+
+.arrow{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 340;
+
+}
   </style>
+
   <body>
+
   <div class="background">
-    <img src="revi.jpg">
+    <img src="revi copy 2.jpg">
   </div>
+<div class="text">
+  <p>
+    They are passionate about offering creative, organic, clean food to our
+    local communities! Delicious organic, dairy­-free, gluten­-free, soy­-free,
+    plant­-based meals, smoothies and juice cleanses are made with one simple
+    goal - making clean eating fun, easy and accessible!
+  </p>
+
+</div>
 
 
+<div class="title">
+REVITALIVE
+</div>
+
+<div class="title2">
+Fresh Pressed Juice
+</div>
+
+    <div class="haze">
+</div>
+
+<div class="sidenav">
+<a href="uburger"> <div id="square" class="whitesquare"> </div> </a>
+<a href="dunkindonuts.html"> <div id="square" class="whitesquare"> </div> </a>
+<a href="mrgelato"> <div id="square" class="whitesquare"> </div> </a>
+<a href="revitalive"> <div id="square" class="blacksquare"> </div> </a>
+<a href="cvs"> <div id="square" class="whitesquare"> </div> </a>
+</div>
+
+<div class="read">
+Read more
+</div>
+<div class="arrow">
+  <img src="arrow.png">
+</div>
 
   </body>
 </head>
+
+
+
 </html>
