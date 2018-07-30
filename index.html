@@ -1,25 +1,157 @@
 <html>
-
-</div>
-<head>
-  <style>
-div {
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-
-  }
-
-  </style>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #background {
+        height: 803px;
+        width: 1440px;
+      }
+      #transparentbackground {
+        background-color: rgba(255, 252, 176, 0.3);
+        position: absolute;
+        width: 1440px;
+        height: 803px;
+        top: 0;
+        left: 0;
+      }
+      #logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 18%;
+        width: 18%;
+      }
+      #arrow {
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        margin-left: 695px;
+        margin-top: -80px;
+      }
+      h2 {
+        font-family: 'Calligraffitti', cursive;
+        position: absolute;
+        top: 0;
+        margin-top: 590px;
+        margin-left: 620px;
+        color: rgb(255, 252, 176);
+        font-size: 45px;
+        text-align: center;
+        text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+      }
+      h4 {
+        font-family: 'Calligraffitti', cursive;
+        position: absolute;
+        top: 0;
+        color: rgb(255, 252, 176);
+        margin-top: 670px;
+        margin-left: 650px;
+        font-size: 22px;
+        text-align: center;
+        text-shadow: 2px 2px gray;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+      }
+      .navbar {
+        overflow: hidden;
+        background-color: #B0EEFF;
+        position: fixed;
+        top: 0;
+        margin-left: 450px;
+        margin-top: 25px;
+        width: 576px;
+        height: 50px;
+      }
+      .navbar a {
+        float: left;
+        display: block;
+        box-sizing: border-box;
+        color: #321615;
+        height: 100%;
+        font-family: 'PT Serif', serif;
+        border: 2px solid #321615;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .sidenav {
+        height: 323px;
+        width: 60px;
+        position: fixed;
+        top: 230px;
+        right: 0;
+        border: 2px solid #321615;
+        background-color: #B0EEFF;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding: 10px;
+      }
+      sidenav a{
+        padding: 4px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        background-color: white;
+        border: 2px solid black;
+      }
+      sidenav a:hover {
+        color: #f1f1f1
+      }
+      .blacksquare {
+        margin: 5px;
+        height: 50px;
+        width: 50px;
+        background-color: #321615;
+        border: 2px solid #321615;
+      }
+      .whitesquare {
+        margin: 5px;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border: 2px solid #321615;
+      }
+      #square {
+        margin-top: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
   <body>
-  <div class="background">
-    <img src="revi.jpg">
-  </div>
-
-
-
+    <div id=transparentbackground>
+    </div>
+    <div class="navbar">
+      <a href="#AboutUs"> <div class="rectangle">About Us </div></a>
+      <a href="#Work"><div class="rectangle">Work</div></a>
+      <a href="#Services"><div class="rectangle">Services</div></a>
+      <a href="#Blog"><div class="rectangle">Blog</div></a>
+      <a href="#ContactUs"><div class="rectangle">Contact Us</div></a>
+      <a href="#Subscribe"><div class="rectangle">Subscribe</div></a>
+    </div>
+    <img id="background" src="newuburger.jpg" alt="uburger">
+    <img id="logo" src="andover_attractions_trans.png" alt="logo">
+    <h2> UBURGER </h2>
+    <h4> Above All Burgers </h4>
+    <a href="https://uburger.com/content/above-all-burgers"> <img id="arrow" src="arrow.png"> </a>
+    <div class="sidenav">
+     <a href="index.html"> <div id="square" class="blacksquare"> </div> </a>
+     <a href="dunkindonuts.html"> <div id="square" class="whitesquare"> </div> </a>
+     <a href="aa copy.html"> <div id="square" class="whitesquare"> </div> </a>
+     <a href="revi.html"> <div id="square" class="whitesquare"> </div> </a>
+     <a href="cvs.html"> <div id="square" class="whitesquare"> </div> </a>
+   </div>
   </body>
-</head>
 </html>
